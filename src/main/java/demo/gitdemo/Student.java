@@ -2,11 +2,14 @@ package demo.gitdemo;
 
 public class Student {
     int id;
-    String name;
+    String studentCode;
 
-    public Student(int id, String name) {
+    public Student(int id, String studentCode) {
         this.id = id;
-        this.name = name;
+        this.studentCode = studentCode;
+    }
+
+    public Student() {
     }
 
     public int getId() {
@@ -17,13 +20,11 @@ public class Student {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getStudentCode() {
+        return studentCode;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setStudentCode(String studentCode) {
+        this.studentCode = studentCode;
     }
-    
-    
 }
